@@ -1,0 +1,3 @@
+[console_scripts]
+ping_pong = image_agent.ping_pong:main
+

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/image_agent/image_agent.egg-info
+writing ../../build/image_agent/image_agent.egg-info/PKG-INFO
+writing dependency_links to ../../build/image_agent/image_agent.egg-info/dependency_links.txt
+writing entry points to ../../build/image_agent/image_agent.egg-info/entry_points.txt
+writing requirements to ../../build/image_agent/image_agent.egg-info/requires.txt
+writing top-level names to ../../build/image_agent/image_agent.egg-info/top_level.txt
+writing manifest file '../../build/image_agent/image_agent.egg-info/SOURCES.txt'
+reading manifest file '../../build/image_agent/image_agent.egg-info/SOURCES.txt'
+writing manifest file '../../build/image_agent/image_agent.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build
+creating /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build/lib
+creating /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build/lib/image_agent
+copying image_agent/__init__.py -> /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build/lib/image_agent
+copying image_agent/ping_pong.py -> /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build/lib/image_agent
+running install
+running install_lib
+creating /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages/image_agent
+copying /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build/lib/image_agent/__init__.py -> /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages/image_agent
+copying /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build/lib/image_agent/ping_pong.py -> /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages/image_agent
+byte-compiling /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages/image_agent/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages/image_agent/ping_pong.py to ping_pong.cpython-38.pyc
+running install_data
+creating /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/share/ament_index
+creating /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/share/ament_index/resource_index
+creating /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/share/ament_index/resource_index/packages
+copying resource/image_agent -> /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/share/ament_index/resource_index/packages
+copying package.xml -> /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/share/image_agent
+running install_egg_info
+Copying ../../build/image_agent/image_agent.egg-info to /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages/image_agent-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ping_pong script to /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/image_agent
+writing list of installed files to '/home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/install.log'

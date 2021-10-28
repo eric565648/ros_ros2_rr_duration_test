@@ -1,0 +1,8 @@
+prefix=/home/eric/ros_ros2_rr_duration_test/ros_ws/install
+
+Name: image_agent
+Description: Description of image_agent
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

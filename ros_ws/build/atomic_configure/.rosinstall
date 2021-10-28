@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/eric/ros_ros2_rr_duration_test/ros_ws/devel/setup.sh
