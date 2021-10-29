@@ -1,0 +1,18 @@
+#Service to provide interface for round trip test
+service experimental.pingpongimage
+
+stdver 0.9
+
+struct MsgImage
+    field uint32 width
+    field uint32 height
+    field string encoding
+    field uint8 is_bigendian
+    field uint32 step
+    field uint8[] data
+end
+
+object PingPong
+    wire MsgImage ping [writeonly]
+    wire MsgImage pong [readonly]
+end

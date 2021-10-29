@@ -42,7 +42,6 @@ class PingPong(Node):
         # parameters
         self.mach_type = machine_type
         self.iter_amount = iter
-        print("self.iter_amount")
         self.system = system
         self.trial = trial
 
