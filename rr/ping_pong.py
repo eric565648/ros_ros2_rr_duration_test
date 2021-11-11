@@ -97,7 +97,7 @@ class PingClient(object):
                 print("Msg duration Ave:",np.mean(self.durations))
                 print("Msg duration Std:",np.std(self.durations))
                 mdic = {str(self.system_config)+'_'+str(self.iter_amount)+'_'+str(self.trial):self.durations}
-                savemat("../duration_"+str(self.system_config)+'_'+str(self.iter_amount)+'_'+str(self.trial)+'.mat', mdic)
+                savemat("../duration_"+str(self.system_config)+'_rr_'+str(self.iter_amount)+'_'+str(self.trial)+'.mat', mdic)
                 return
             else:
                 self.last_stamp = dt.now()
