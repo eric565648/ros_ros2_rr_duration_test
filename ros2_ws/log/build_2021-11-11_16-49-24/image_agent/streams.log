@@ -1,0 +1,24 @@
+[0.274s] Invoking command in '/home/eric/ros_ros2_rr_duration_test/ros2_ws/src/image_agent': PYTHONPATH=/home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/image_agent build --build-base /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build install --prefix /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent --record /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/install.log --single-version-externally-managed
+[0.506s] running egg_info
+[0.507s] writing ../../build/image_agent/image_agent.egg-info/PKG-INFO
+[0.507s] writing dependency_links to ../../build/image_agent/image_agent.egg-info/dependency_links.txt
+[0.508s] writing entry points to ../../build/image_agent/image_agent.egg-info/entry_points.txt
+[0.508s] writing requirements to ../../build/image_agent/image_agent.egg-info/requires.txt
+[0.508s] writing top-level names to ../../build/image_agent/image_agent.egg-info/top_level.txt
+[0.555s] reading manifest file '../../build/image_agent/image_agent.egg-info/SOURCES.txt'
+[0.557s] writing manifest file '../../build/image_agent/image_agent.egg-info/SOURCES.txt'
+[0.557s] running build
+[0.557s] running build_py
+[0.557s] copying image_agent/ping_pong.py -> /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build/lib/image_agent
+[0.557s] running install
+[0.559s] running install_lib
+[0.561s] copying /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build/lib/image_agent/ping_pong.py -> /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages/image_agent
+[0.562s] byte-compiling /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages/image_agent/ping_pong.py to ping_pong.cpython-38.pyc
+[0.565s] running install_data
+[0.566s] running install_egg_info
+[0.569s] removing '/home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages/image_agent-0.0.0-py3.8.egg-info' (and everything under it)
+[0.570s] Copying ../../build/image_agent/image_agent.egg-info to /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages/image_agent-0.0.0-py3.8.egg-info
+[0.577s] running install_scripts
+[0.597s] Installing ping_pong script to /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/image_agent
+[0.598s] writing list of installed files to '/home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/install.log'
+[0.639s] Invoked command in '/home/eric/ros_ros2_rr_duration_test/ros2_ws/src/image_agent' returned '0': PYTHONPATH=/home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/image_agent build --build-base /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/build install --prefix /home/eric/ros_ros2_rr_duration_test/ros2_ws/install/image_agent --record /home/eric/ros_ros2_rr_duration_test/ros2_ws/build/image_agent/install.log --single-version-externally-managed

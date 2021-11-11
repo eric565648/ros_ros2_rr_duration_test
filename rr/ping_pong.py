@@ -68,7 +68,8 @@ class PingClient(object):
         self.durations = np.array([])
         self.last_stamp = None
         
-        url='rr+local:///?nodeid=8c94bbcf-f443-4c70-aa18-b8b8e8293a2b&service=Pong'
+        # url='rr+local:///?nodeid=8c94bbcf-f443-4c70-aa18-b8b8e8293a2b&service=Pong'
+        url='rr+tcp://[fe80::cacb:b3f1:ba56:3d]:2356/?nodeid=9a8a6ebd-ca77-41f3-998c-a833014ff0ee&service=Pong'
 
         self.cli=RRN.ConnectService(url)
 

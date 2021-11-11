@@ -87,7 +87,7 @@ class PingPong(object):
                 print("Msg duration Ave:",np.mean(self.durations))
                 print("Msg duration Std:",np.std(self.durations))
                 mdic = {str(self.system)+'_'+str(self.iter_amount)+'_'+str(self.trial):self.durations}
-                savemat("duration_"+str(self.system)+'_'+str(self.iter_amount)+'_'+str(self.trial)+'.mat', mdic)
+                savemat("duration_"+str(self.system)+'_ros_'+str(self.iter_amount)+'_'+str(self.trial)+'.mat', mdic)
                 return
             else:
                 msg.header.stamp = rospy.Time.now()
