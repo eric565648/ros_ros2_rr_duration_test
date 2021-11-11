@@ -80,15 +80,18 @@ class PingClient(object):
         self.pong_wire.WireValueChanged += self.pong_cb
     
     def pong_cb(self, w, value, t):
-        rec_stamp = dt.now()
+        # rec_stamp = dt.now()
+        rec_stamp = time.perf_counter_ns()
 
         if self.it < 0:
             self.it += 1
-            self.last_stamp = dt.now()
+            # self.last_stamp = dt.now()
+            self.last_stamp = time.perf_counter_ns()
             self.ping_wire.OutValue = value
         else:
             dur = rec_stamp - self.last_stamp
-            self.durations = np.append(self.durations,dur.total_seconds())
+            # self.durations = np.append(self.durations,dur.total_seconds())
+            self.durations = np.append(self.durations,dur*1e-9)
 
             self.it += 1
 
@@ -100,7 +103,8 @@ class PingClient(object):
                 savemat("../duration_"+str(self.system_config)+'_rr_'+str(self.iter_amount)+'_'+str(self.trial)+'.mat', mdic)
                 return
             else:
-                self.last_stamp = dt.now()
+                # self.last_stamp = dt.now()
+                self.last_stamp = time.perf_counter_ns()
                 self.ping_wire.OutValue = value
     
     def init_ping(self):
